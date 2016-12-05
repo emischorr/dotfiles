@@ -1,0 +1,16 @@
+# shortcuts
+alias ..="cd .."
+alias x="exit"
+
+# listings
+alias ls="ls -G"
+alias ll="ls -l"
+alias la="ls -la"
+
+# Recursively remove .DS_Store files
+alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
+
+# git aliases
+alias gs="git status -sb"
+
+

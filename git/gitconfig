@@ -1,0 +1,16 @@
+[core]
+        editor = nano
+        attributesfile = ~/.gitattributes
+        excludesfile = ~/.gitignore
+        autocrlf = input
+        mergeoptions = --no-edit
+        ignorecase = false
+
+[merge]
+        tool = opendiff
+
+[color]
+        ui = always
+
+[fetch]
+        prune = true
