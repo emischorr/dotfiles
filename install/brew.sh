@@ -36,6 +36,7 @@ apps=(
   ffmpeg
   redis
   nmap
+  siege
 )
 
 brew install "${apps[@]}"
