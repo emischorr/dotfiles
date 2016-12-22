@@ -14,6 +14,9 @@ apps=(
   skype
   atom
   vlc
+  osxfuse
 )
 
 brew cask install "${apps[@]}"
+
+brew install homebrew/fuse/ntfs-3g

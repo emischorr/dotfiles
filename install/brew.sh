@@ -37,6 +37,7 @@ apps=(
   redis
   nmap
   siege
+  ansible
 )
 
 brew install "${apps[@]}"
